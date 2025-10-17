@@ -1,0 +1,24 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Configuration
+appsettings.json
+appsettings.Development.json
+
+# Secrets and keys
+secrets.json
+*.secret
+.env
