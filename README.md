@@ -158,3 +158,7 @@ warn: WeatherApi.Controllers.WeatherController[0]
 - Appropriate log levels (Debug, Information, Warning, Error)
 - Logging external API calls and their results
 - Tracking cache hits/misses
+## 🙏 Acknowledgments
+
+- OpenWeatherMap for providing free weather API
+- json2csharp.com for model generation tool
