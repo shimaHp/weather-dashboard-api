@@ -40,12 +40,11 @@ A RESTful API that provides current weather and forecast data by integrating wit
 - .NET 8 SDK or later
 - OpenWeatherMap API key (free)
 - Visual Studio 2022 / VS Code / Rider
-- Postman or similar API testing tool (optional)
+-Swagger, Postman or similar API testing tool (optional)
 
 ### Configuration Files
 - `appsettings.example.json` contains the structure for required configuration.
-- **Do not commit `appsettings.json`** with your actual API key.
-- Users should copy the example file and insert their own API key.
+
 
 ### Installation
 
@@ -57,14 +56,11 @@ A RESTful API that provides current weather and forecast data by integrating wit
 
 2. **Configure API Key**
 ```bash
-git clone https://github.com/yourusername/weather-dashboard-api.git
+git clone https://github.com/shimahp/weather-dashboard-api.git
 cd weather-dashboard-api
 
 3. **Get OpenWeatherMap API Key**
-# Copy example configuration to actual config file
-cp appsettings.example.json appsettings.json
-# Windows:
-# copy appsettings.example.json appsettings.json
+copy Config\appsettings.example.json appsettings.json
 Open appsettings.json and replace "YOUR_API_KEY_HERE" with your actual API key.
 
  4. **Run the application**
